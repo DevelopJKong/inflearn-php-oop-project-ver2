@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ab436a2e745bed1a3c3111e030512ea5",
+    "packages": [
+        {
+            "name": "developjkong/php_oop_board",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DevelopJKong/php-oop-board.git",
+                "reference": "d5520c9168c08491cca831b47890314a198654b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DevelopJKong/php-oop-board/zipball/d5520c9168c08491cca831b47890314a198654b1",
+                "reference": "d5520c9168c08491cca831b47890314a198654b1",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "php_oop_board\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tbara"
+                }
+            ],
+            "description": "description",
+            "support": {
+                "issues": "https://github.com/DevelopJKong/php-oop-board/issues",
+                "source": "https://github.com/DevelopJKong/php-oop-board/tree/main"
+            },
+            "time": "2022-01-31T09:08:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "developjkong/php_oop_board": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
