@@ -64,3 +64,107 @@ Stack trace:
 #6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
 #7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
 #8 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '2')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '1')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '1')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '1')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '1')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '2')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '2')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '2')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "\App\Controllers\PostControllers" not found in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '1')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "\App\Controllers\PostController:edit" not found or invalid function name in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php:22
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '3')
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#6 {main}
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '3'' at line 1 in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Database\Adaptor.php:19
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Database\Adaptor.php(19): PDOStatement->execute(Array)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Post.php(23): Eclair\Database\Adaptor::exec('UPDATE posts SE...', Array)
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Services\PostService.php(16): App\Post->update()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\PostController.php(57): App\Services\PostService::update(Object(App\Post))
+#4 [internal function]: App\Controllers\PostController::update('3')
+#5 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...', '3')
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#10 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#11 {main}
