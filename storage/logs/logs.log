@@ -1,0 +1,66 @@
+ErrorException: Undefined property: stdClass::$_csrfToken in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php:11
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php(11): App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'Undefined prope...', 'C:\\Users\\tbara\\...', 11)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\RequestContext.php(53): App\Middlewares\CsrfTokenMiddleware::process()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(21): Eclair\Routing\RequestContext->runMiddlewares()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ErrorException: Undefined property: stdClass::$_csrfToken in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php:11
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php(11): App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'Undefined prope...', 'C:\\Users\\tbara\\...', 11)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\RequestContext.php(53): App\Middlewares\CsrfTokenMiddleware::process()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(21): Eclair\Routing\RequestContext->runMiddlewares()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ErrorException: Attempt to read property "_csrfToken" on null in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php:11
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php(11): App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'Attempt to read...', 'C:\\Users\\tbara\\...', 11)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\RequestContext.php(53): App\Middlewares\CsrfTokenMiddleware::process()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(21): Eclair\Routing\RequestContext->runMiddlewares()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ErrorException: Undefined array key "CSRF_TOKEN" in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php:12
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php(12): App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'Undefined array...', 'C:\\Users\\tbara\\...', 12)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\RequestContext.php(53): App\Middlewares\CsrfTokenMiddleware::process()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(21): Eclair\Routing\RequestContext->runMiddlewares()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ErrorException: Undefined array key "CSRF_TOKEN" in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php:12
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Middlewares\CsrfTokenMiddleware.php(12): App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'Undefined array...', 'C:\\Users\\tbara\\...', 12)
+#1 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\RequestContext.php(53): App\Middlewares\CsrfTokenMiddleware::process()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(21): Eclair\Routing\RequestContext->runMiddlewares()
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ParseError: Unclosed '{' on line 18 does not match ')' in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\AuthController.php:25
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\Users\\tbara\\...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}

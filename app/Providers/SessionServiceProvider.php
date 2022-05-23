@@ -3,9 +3,9 @@
 namespace App\Providers;
 
 use Eclair\Session\DatabaseSessionHandler;
+use Eclair\Support\ServiceProvider;
 
-class SessionServiceProvider extends \Eclair\Support\ServiceProvider
-
+class SessionServiceProvider extends ServiceProvider
 {
     public static function register()
     {
@@ -17,3 +17,4 @@ class SessionServiceProvider extends \Eclair\Support\ServiceProvider
         session_start();
     }
 }
+

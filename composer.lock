@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab436a2e745bed1a3c3111e030512ea5",
+    "content-hash": "e1258fde90f3d017f153bd707f470213",
     "packages": [
         {
-            "name": "developjkong/php_oop_board",
+            "name": "developjkong/eclair",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/DevelopJKong/php-oop-board.git",
-                "reference": "d5520c9168c08491cca831b47890314a198654b1"
+                "url": "https://github.com/DevelopJKong/php-package.git",
+                "reference": "bfae84e8a33f1b615f6338ac6a2c37a5c1bd154e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DevelopJKong/php-oop-board/zipball/d5520c9168c08491cca831b47890314a198654b1",
-                "reference": "d5520c9168c08491cca831b47890314a198654b1",
+                "url": "https://api.github.com/repos/DevelopJKong/php-package/zipball/bfae84e8a33f1b615f6338ac6a2c37a5c1bd154e",
+                "reference": "bfae84e8a33f1b615f6338ac6a2c37a5c1bd154e",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "php_oop_board\\": "src/"
+                    "Eclair\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -33,22 +33,23 @@
             ],
             "authors": [
                 {
-                    "name": "tbara"
+                    "name": "DevelopJKong",
+                    "email": "ybaram40@gmail.com"
                 }
             ],
-            "description": "description",
+            "description": "Eclair is a Simple PHP micro framework",
             "support": {
-                "issues": "https://github.com/DevelopJKong/php-oop-board/issues",
-                "source": "https://github.com/DevelopJKong/php-oop-board/tree/main"
+                "issues": "https://github.com/DevelopJKong/php-package/issues",
+                "source": "https://github.com/DevelopJKong/php-package/tree/main"
             },
-            "time": "2022-01-31T09:08:19+00:00"
+            "time": "2022-05-22T12:14:44+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "developjkong/php_oop_board": 20
+        "developjkong/eclair": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

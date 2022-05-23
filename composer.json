@@ -5,6 +5,6 @@
     }
   },
   "require": {
-    "developjkong/php_oop_board": "dev-main"
+    "developjkong/eclair": "dev-main"
   }
 }
