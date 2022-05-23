@@ -168,3 +168,58 @@ Stack trace:
 #9 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
 #10 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
 #11 {main}
+ValueError: hash(): Argument #1 ($algo) must be a valid hashing algorithm in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php:17
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php(17): hash('mb5', 'react_.png')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ValueError: hash(): Argument #1 ($algo) must be a valid hashing algorithm in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php:17
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php(17): hash('mb5', '\xED\x94\x84\xEB\xA1\x9C\xED\x8C\x8C\xEC\x9D\xBC.pn...')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ValueError: hash(): Argument #1 ($algo) must be a valid hashing algorithm in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php:17
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php(17): hash('mb5', '\xED\x94\x84\xEB\xA1\x9C\xED\x8C\x8C\xEC\x9D\xBC.pn...')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ValueError: hash(): Argument #1 ($algo) must be a valid hashing algorithm in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php:17
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php(17): hash('mb5', '0003.png')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+ValueError: hash(): Argument #1 ($algo) must be a valid hashing algorithm in C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php:17
+Stack trace:
+#0 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Controllers\ImageController.php(17): hash('mb5', '0003.png')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Routing\Route.php(22): call_user_func('\\App\\Controller...')
+#3 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\app\Providers\RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\vendor\developjkong\eclair\src\Application.php(18): array_walk(Array, Object(Closure))
+#7 C:\Users\tbara\OneDrive\바탕 화면\backend\php_oop_inflearn_project\public\index.php(7): Eclair\Application->boot()
+#8 {main}
